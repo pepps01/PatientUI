@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PatientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PatientUITests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		29C80F22CF7EF807381BA8F6 /* libPods-PatientUI-PatientUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 307127D726205595BC22ABDC /* libPods-PatientUI-PatientUITests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8F890A61EFD2110EFC0D359B /* libPods-PatientUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4601F1500FE9C9CD8423E2C /* libPods-PatientUI.a */; };
+		43EE407C659C4A88B7265257 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A50B2AA4C0A43339C8191F1 /* AntDesign.ttf */; };
+		1C6D92DE3D7E4F488A6C752A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16295D52E8F040C597FEDEDB /* Entypo.ttf */; };
+		F9C6A37CDA4B483A901AA0AE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 174938A3AE2349908B737EAB /* EvilIcons.ttf */; };
+		ADD0495538DA46C5A8F4A31C /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01B49E8C844F491E91CBA4F2 /* Feather.ttf */; };
+		2581053EB01B4084AF478DFA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E3935BD535E4C0D838FA170 /* FontAwesome.ttf */; };
+		1A3ECFBB71824AB692E2851F /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33949DB8005D41D29CCF3D1F /* FontAwesome5_Brands.ttf */; };
+		96A980619FC74F9F8596AEFD /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30C995431BE45A19DAB5442 /* FontAwesome5_Regular.ttf */; };
+		6926049A3F4843F584B997F5 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 075B07B9FDFA499EA1EC68BF /* FontAwesome5_Solid.ttf */; };
+		F6339575E5824646B45316A3 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FB667CE27944413B2E1C29C /* Fontisto.ttf */; };
+		BA22C5DAB734478E9650861A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB286E3A1AF4B0E92EEBD22 /* Foundation.ttf */; };
+		7383FFF403A24B1CA82AD565 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B31DA54F985242A5B8153262 /* Ionicons.ttf */; };
+		EF9FDF9917964BCCAFCC7076 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E3FB8F011D44D84A4D4E6F2 /* MaterialCommunityIcons.ttf */; };
+		D3E4C35C54BA4146AA9684E6 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 029D6A9A1A9A4DD4BC15BEDA /* MaterialIcons.ttf */; };
+		2C697C413D21422E92FAD1C8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13BF897760F410AB9B91AD2 /* Octicons.ttf */; };
+		67E6520BCC8740BCB604F1F3 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2F1D983E1F7497E99084C2D /* SimpleLineIcons.ttf */; };
+		9E51F32FB4CB4082969C7BE0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3005A78473834A0C8F485AA2 /* Zocial.ttf */; };
+		E97A3B42AE004284B64CEAB1 /* Axiforma Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D16942ABABD41F3B24A1572 /* Axiforma Black Italic.otf */; };
+		A0D267E8AE4C446CBEB25F55 /* Axiforma Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6AA317D94E546E1A850629B /* Axiforma Black.otf */; };
+		368CC27E78CA46B6BD7DF359 /* Axiforma-Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5247F64EEB74F0285AA1CB2 /* Axiforma-Bold Italic.otf */; };
+		3F97857FE2EE41BDB6283E73 /* Axiforma-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 006DC2F1E4ED4E1AB8263DCE /* Axiforma-Bold.otf */; };
+		AFF8919252964A1DADECB428 /* Axiforma-Book Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E6ED5FF8234D7786B28EBA /* Axiforma-Book Italic.otf */; };
+		C8638B235CFF4AFF9C87262F /* Axiforma-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 437B1B7CCCEE46AEA11BF696 /* Axiforma-Book.otf */; };
+		4F3B536121D748F887550D22 /* Axiforma-ExtraBold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1F4AF4D4DD724C0BB282C8EC /* Axiforma-ExtraBold Italic.otf */; };
+		A9CB308FDE45492496522E40 /* Axiforma-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C62267800C44266A7A737BA /* Axiforma-ExtraBold.otf */; };
+		3648AB6400D949A691A67ED7 /* Axiforma-Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C375362A78C646F99FB5B2E9 /* Axiforma-Heavy Italic.otf */; };
+		DA73275456E84D63857E9B04 /* Axiforma-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 461202982FC548FBB7B2A173 /* Axiforma-Heavy.otf */; };
+		CB262676D3C840168387F4FA /* Axiforma-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F7CBE6F594D34ABA45215 /* Axiforma-Italic.otf */; };
+		F2CDF848045F4B7393C8D14B /* Axiforma-Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A98B719C7994867B2A76E31 /* Axiforma-Light Italic.otf */; };
+		7ED1EC23135E447489B8FA0E /* Axiforma-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE75F87ABBD14B7F856B04D6 /* Axiforma-Light.otf */; };
+		BD44CBC5CCDE4891911716DB /* Axiforma-Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1471A86FE6D2414AA2C638AE /* Axiforma-Medium Italic.otf */; };
+		21EB2A60B88042D694E8125E /* Axiforma-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9792FE03ADED49429C038869 /* Axiforma-Medium.otf */; };
+		1B28585982354595A2ADC445 /* Muli-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0374EEF70046EF835227F5 /* Muli-Regular.otf */; };
+		7FCC4BBB6E7045F2827D8A6E /* Axiforma-SemiBold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BBCC34D5DA39428098EBC51F /* Axiforma-SemiBold Italic.otf */; };
+		AE343CF3FF504A5FBA5A3693 /* Axiforma-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AC00C2906C947E1B2C32013 /* Axiforma-SemiBold.otf */; };
+		FA25FD4212A8430C98CD9680 /* Axiforma-Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54637A511F784DFD8823E267 /* Axiforma-Thin Italic.otf */; };
+		FF1F8C9EEA3D4FABAC824B41 /* Axiforma-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB009A32188D41D78452968C /* Axiforma-Thin.otf */; };
+		72BCD128A9DE49DD9803CAC5 /* afriHealth-splashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E10752AF2F9D4E709101FDE3 /* afriHealth-splashLogo.png */; };
+		E2B54B39ACA94BEB838F793A /* Amublance.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D438AF431B447E49A751725 /* Amublance.png */; };
+		075452C0886C4583AFEFEA81 /* BuyMedicine.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6BAF7B377E465E8654741D /* BuyMedicine.png */; };
+		CC540F8E393244F6B3BD73E2 /* consultDoctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB3B8610B944008BFF8EF76 /* consultDoctor.png */; };
+		4B9FCBC958F74AFA80418F8A /* doorStepDelivery.png in Resources */ = {isa = PBXBuildFile; fileRef = 21021A69B6B14FE48ECCF19A /* doorStepDelivery.png */; };
+		B01E473D924D49D3B3DDF6F4 /* drug1.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D61C5A993647CE92C9FC77 /* drug1.png */; };
+		382636DDE99D47A3AB8BEA4C /* drug2.png in Resources */ = {isa = PBXBuildFile; fileRef = D02EE7A0CAFA42D2A7AAF070 /* drug2.png */; };
+		714596DB96504E6CB4DF4F46 /* wiremeshsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ED85950FB9417C8296895B /* wiremeshsplash.png */; };
+		4816AF041934489D9000C1AF /* ambulanceBooking.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6A62D96148EE4B69A558340F /* ambulanceBooking.svg */; };
+		BD11540B8D0F4F71BAB40A87 /* buyMedicine.svg in Resources */ = {isa = PBXBuildFile; fileRef = 64798E7C77F64C2593555227 /* buyMedicine.svg */; };
+		1E36682F34ED4BF6B1C4D9E3 /* clipboard-tick.svg in Resources */ = {isa = PBXBuildFile; fileRef = 089EABFC8203472E9F71613F /* clipboard-tick.svg */; };
+		6D431065F0984155911C3904 /* deliveryDoorStep.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9F69D46552614321AAA58380 /* deliveryDoorStep.svg */; };
+		05EE6515EDCF418D8C95ABC7 /* filterSearch.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3337519CE89A41578E9636D4 /* filterSearch.svg */; };
+		242341402A374515A290CB0A /* findDoctors.svg in Resources */ = {isa = PBXBuildFile; fileRef = BEFAEF31219A4F989D4727DC /* findDoctors.svg */; };
+		324F8ACE5C774734BAEA3754 /* fingerprint.svg in Resources */ = {isa = PBXBuildFile; fileRef = FD0F0DCEF5334F0283E1343C /* fingerprint.svg */; };
+		F8F7F76CC8F84ED286E63CE9 /* google-button.svg in Resources */ = {isa = PBXBuildFile; fileRef = 44A7FCEDFF7A461F857645F6 /* google-button.svg */; };
+		87930520AC9845489F1B2F22 /* insurace-cover.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3CA117C9AE4F76B4BD955C /* insurace-cover.svg */; };
+		599D813B102D43F0A296A0A9 /* nextButton.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0C5CB68BABE48AC9CC8AA69 /* nextButton.svg */; };
+		D0602FB47C3B40FFB90BC3ED /* purchaseMedication.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9AE935E131D848078F87F6DA /* purchaseMedication.svg */; };
+		9836F8580EA3427C86B9BF78 /* RigourPlus-Logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 03348730A7FD48318596093E /* RigourPlus-Logo.svg */; };
+		1D83953034E9437CB69BEB5D /* shopping-cart.svg in Resources */ = {isa = PBXBuildFile; fileRef = 82DF6E13B1904C4B8CA7D6B1 /* shopping-cart.svg */; };
+		7E10F84BC1CB4933A318EE13 /* signup-login-mesh.svg in Resources */ = {isa = PBXBuildFile; fileRef = 619EF2232AD14355B44AA2D4 /* signup-login-mesh.svg */; };
+		CD0780B408B5444AAED21311 /* twitter-button.svg in Resources */ = {isa = PBXBuildFile; fileRef = 67A4FEAC761747E6A183FFBD /* twitter-button.svg */; };
+		3C1A0C03F678411CA562653F /* Muli-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE90F8EC16714D5AAFDC10DA /* Muli-Black.ttf */; };
+		4A926A62698448ED85069AEE /* Muli-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D59D613D706434195942E02 /* Muli-BlackItalic.ttf */; };
+		CAC8ED1A05A94711BB773E2B /* Muli-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E6FA10CEED4123BD7AD01B /* Muli-Bold.ttf */; };
+		99BA132477F74D15B863F061 /* Muli-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCE0A777CF544B8BADB3A054 /* Muli-BoldItalic.ttf */; };
+		79B6CB329BEA48A79A8DC466 /* Muli-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA1D5324B6D84BF393823508 /* Muli-ExtraBold.ttf */; };
+		8FF5A7F6DE9244E196C631E1 /* Muli-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CECDC5C2E2A4104B9430BE9 /* Muli-ExtraBoldItalic.ttf */; };
+		7D6DA433A4804713BC40E707 /* Muli-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA92A74A63CB46A18B464B9D /* Muli-ExtraLight.ttf */; };
+		D34AE3D8351D4B07909AE71E /* Muli-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDDA28F7B6EF491FA348CCFF /* Muli-ExtraLightItalic.ttf */; };
+		34010BD20FE1499DB682D1DB /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A9F2342A78469EBE687FC4 /* Muli-Light.ttf */; };
+		E2233ABC639F457885612120 /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8CBA48B0D6142B8836C9EA7 /* Muli-LightItalic.ttf */; };
+		A976DD7061724513B874837F /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10CD582CD1724E0AB37CEADD /* Muli-Regular.ttf */; };
+		97C7C026BAAF43D1B8EFD584 /* Muli-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F18E48B914241BC827F3E62 /* Muli-RegularItalic.ttf */; };
+		C67B96239C2047F2924513AB /* Muli-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DBC1924AA17427FA766392E /* Muli-SemiBold.ttf */; };
+		3DE569E69CF3442382EAD028 /* Muli-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3820F7399B5A49699DAA9228 /* Muli-SemiBoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = PatientUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* PatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PatientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientUITests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* PatientUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PatientUI/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PatientUI/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PatientUI/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PatientUI/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PatientUI/main.m; sourceTree = "<group>"; };
+		307127D726205595BC22ABDC /* libPods-PatientUI-PatientUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientUI-PatientUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAB933610957BC28CF71919 /* Pods-PatientUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientUI.debug.xcconfig"; path = "Target Support Files/Pods-PatientUI/Pods-PatientUI.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCA0C30946643B5333EF1D7 /* Pods-PatientUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientUI.release.xcconfig"; path = "Target Support Files/Pods-PatientUI/Pods-PatientUI.release.xcconfig"; sourceTree = "<group>"; };
+		67F178E1835AFD8E793A5D8D /* Pods-PatientUI-PatientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientUI-PatientUITests.debug.xcconfig"; path = "Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PatientUI/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4601F1500FE9C9CD8423E2C /* libPods-PatientUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatientUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF16836C322917AF60FCC13E /* Pods-PatientUI-PatientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatientUI-PatientUITests.release.xcconfig"; path = "Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1A50B2AA4C0A43339C8191F1 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16295D52E8F040C597FEDEDB /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		174938A3AE2349908B737EAB /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01B49E8C844F491E91CBA4F2 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E3935BD535E4C0D838FA170 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33949DB8005D41D29CCF3D1F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B30C995431BE45A19DAB5442 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		075B07B9FDFA499EA1EC68BF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FB667CE27944413B2E1C29C /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CB286E3A1AF4B0E92EEBD22 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B31DA54F985242A5B8153262 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E3FB8F011D44D84A4D4E6F2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		029D6A9A1A9A4DD4BC15BEDA /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F13BF897760F410AB9B91AD2 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2F1D983E1F7497E99084C2D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3005A78473834A0C8F485AA2 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D16942ABABD41F3B24A1572 /* Axiforma Black Italic.otf */ = {isa = PBXFileReference; name = "Axiforma Black Italic.otf"; path = "../src/assets/fonts/Axiforma Black Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6AA317D94E546E1A850629B /* Axiforma Black.otf */ = {isa = PBXFileReference; name = "Axiforma Black.otf"; path = "../src/assets/fonts/Axiforma Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5247F64EEB74F0285AA1CB2 /* Axiforma-Bold Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Bold Italic.otf"; path = "../src/assets/fonts/Axiforma-Bold Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		006DC2F1E4ED4E1AB8263DCE /* Axiforma-Bold.otf */ = {isa = PBXFileReference; name = "Axiforma-Bold.otf"; path = "../src/assets/fonts/Axiforma-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3E6ED5FF8234D7786B28EBA /* Axiforma-Book Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Book Italic.otf"; path = "../src/assets/fonts/Axiforma-Book Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		437B1B7CCCEE46AEA11BF696 /* Axiforma-Book.otf */ = {isa = PBXFileReference; name = "Axiforma-Book.otf"; path = "../src/assets/fonts/Axiforma-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F4AF4D4DD724C0BB282C8EC /* Axiforma-ExtraBold Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-ExtraBold Italic.otf"; path = "../src/assets/fonts/Axiforma-ExtraBold Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C62267800C44266A7A737BA /* Axiforma-ExtraBold.otf */ = {isa = PBXFileReference; name = "Axiforma-ExtraBold.otf"; path = "../src/assets/fonts/Axiforma-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C375362A78C646F99FB5B2E9 /* Axiforma-Heavy Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Heavy Italic.otf"; path = "../src/assets/fonts/Axiforma-Heavy Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		461202982FC548FBB7B2A173 /* Axiforma-Heavy.otf */ = {isa = PBXFileReference; name = "Axiforma-Heavy.otf"; path = "../src/assets/fonts/Axiforma-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B3F7CBE6F594D34ABA45215 /* Axiforma-Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Italic.otf"; path = "../src/assets/fonts/Axiforma-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A98B719C7994867B2A76E31 /* Axiforma-Light Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Light Italic.otf"; path = "../src/assets/fonts/Axiforma-Light Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE75F87ABBD14B7F856B04D6 /* Axiforma-Light.otf */ = {isa = PBXFileReference; name = "Axiforma-Light.otf"; path = "../src/assets/fonts/Axiforma-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1471A86FE6D2414AA2C638AE /* Axiforma-Medium Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Medium Italic.otf"; path = "../src/assets/fonts/Axiforma-Medium Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9792FE03ADED49429C038869 /* Axiforma-Medium.otf */ = {isa = PBXFileReference; name = "Axiforma-Medium.otf"; path = "../src/assets/fonts/Axiforma-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F0374EEF70046EF835227F5 /* Muli-Regular.otf */ = {isa = PBXFileReference; name = "Muli-Regular.otf"; path = "../src/assets/fonts/Muli-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BBCC34D5DA39428098EBC51F /* Axiforma-SemiBold Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-SemiBold Italic.otf"; path = "../src/assets/fonts/Axiforma-SemiBold Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AC00C2906C947E1B2C32013 /* Axiforma-SemiBold.otf */ = {isa = PBXFileReference; name = "Axiforma-SemiBold.otf"; path = "../src/assets/fonts/Axiforma-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54637A511F784DFD8823E267 /* Axiforma-Thin Italic.otf */ = {isa = PBXFileReference; name = "Axiforma-Thin Italic.otf"; path = "../src/assets/fonts/Axiforma-Thin Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB009A32188D41D78452968C /* Axiforma-Thin.otf */ = {isa = PBXFileReference; name = "Axiforma-Thin.otf"; path = "../src/assets/fonts/Axiforma-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E10752AF2F9D4E709101FDE3 /* afriHealth-splashLogo.png */ = {isa = PBXFileReference; name = "afriHealth-splashLogo.png"; path = "../src/assets/PNGs/afriHealth-splashLogo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D438AF431B447E49A751725 /* Amublance.png */ = {isa = PBXFileReference; name = "Amublance.png"; path = "../src/assets/PNGs/Amublance.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D6BAF7B377E465E8654741D /* BuyMedicine.png */ = {isa = PBXFileReference; name = "BuyMedicine.png"; path = "../src/assets/PNGs/BuyMedicine.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AB3B8610B944008BFF8EF76 /* consultDoctor.png */ = {isa = PBXFileReference; name = "consultDoctor.png"; path = "../src/assets/PNGs/consultDoctor.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21021A69B6B14FE48ECCF19A /* doorStepDelivery.png */ = {isa = PBXFileReference; name = "doorStepDelivery.png"; path = "../src/assets/PNGs/doorStepDelivery.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88D61C5A993647CE92C9FC77 /* drug1.png */ = {isa = PBXFileReference; name = "drug1.png"; path = "../src/assets/PNGs/drug1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D02EE7A0CAFA42D2A7AAF070 /* drug2.png */ = {isa = PBXFileReference; name = "drug2.png"; path = "../src/assets/PNGs/drug2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2ED85950FB9417C8296895B /* wiremeshsplash.png */ = {isa = PBXFileReference; name = "wiremeshsplash.png"; path = "../src/assets/PNGs/wiremeshsplash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A62D96148EE4B69A558340F /* ambulanceBooking.svg */ = {isa = PBXFileReference; name = "ambulanceBooking.svg"; path = "../src/assets/SVGs/ambulanceBooking.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64798E7C77F64C2593555227 /* buyMedicine.svg */ = {isa = PBXFileReference; name = "buyMedicine.svg"; path = "../src/assets/SVGs/buyMedicine.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		089EABFC8203472E9F71613F /* clipboard-tick.svg */ = {isa = PBXFileReference; name = "clipboard-tick.svg"; path = "../src/assets/SVGs/clipboard-tick.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F69D46552614321AAA58380 /* deliveryDoorStep.svg */ = {isa = PBXFileReference; name = "deliveryDoorStep.svg"; path = "../src/assets/SVGs/deliveryDoorStep.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3337519CE89A41578E9636D4 /* filterSearch.svg */ = {isa = PBXFileReference; name = "filterSearch.svg"; path = "../src/assets/SVGs/filterSearch.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEFAEF31219A4F989D4727DC /* findDoctors.svg */ = {isa = PBXFileReference; name = "findDoctors.svg"; path = "../src/assets/SVGs/findDoctors.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD0F0DCEF5334F0283E1343C /* fingerprint.svg */ = {isa = PBXFileReference; name = "fingerprint.svg"; path = "../src/assets/SVGs/fingerprint.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44A7FCEDFF7A461F857645F6 /* google-button.svg */ = {isa = PBXFileReference; name = "google-button.svg"; path = "../src/assets/SVGs/google-button.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A3CA117C9AE4F76B4BD955C /* insurace-cover.svg */ = {isa = PBXFileReference; name = "insurace-cover.svg"; path = "../src/assets/SVGs/insurace-cover.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0C5CB68BABE48AC9CC8AA69 /* nextButton.svg */ = {isa = PBXFileReference; name = "nextButton.svg"; path = "../src/assets/SVGs/nextButton.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AE935E131D848078F87F6DA /* purchaseMedication.svg */ = {isa = PBXFileReference; name = "purchaseMedication.svg"; path = "../src/assets/SVGs/purchaseMedication.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		03348730A7FD48318596093E /* RigourPlus-Logo.svg */ = {isa = PBXFileReference; name = "RigourPlus-Logo.svg"; path = "../src/assets/SVGs/RigourPlus-Logo.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82DF6E13B1904C4B8CA7D6B1 /* shopping-cart.svg */ = {isa = PBXFileReference; name = "shopping-cart.svg"; path = "../src/assets/SVGs/shopping-cart.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		619EF2232AD14355B44AA2D4 /* signup-login-mesh.svg */ = {isa = PBXFileReference; name = "signup-login-mesh.svg"; path = "../src/assets/SVGs/signup-login-mesh.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67A4FEAC761747E6A183FFBD /* twitter-button.svg */ = {isa = PBXFileReference; name = "twitter-button.svg"; path = "../src/assets/SVGs/twitter-button.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE90F8EC16714D5AAFDC10DA /* Muli-Black.ttf */ = {isa = PBXFileReference; name = "Muli-Black.ttf"; path = "../src/assets/fonts/Muli-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D59D613D706434195942E02 /* Muli-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Muli-BlackItalic.ttf"; path = "../src/assets/fonts/Muli-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0E6FA10CEED4123BD7AD01B /* Muli-Bold.ttf */ = {isa = PBXFileReference; name = "Muli-Bold.ttf"; path = "../src/assets/fonts/Muli-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCE0A777CF544B8BADB3A054 /* Muli-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-BoldItalic.ttf"; path = "../src/assets/fonts/Muli-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA1D5324B6D84BF393823508 /* Muli-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraBold.ttf"; path = "../src/assets/fonts/Muli-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CECDC5C2E2A4104B9430BE9 /* Muli-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Muli-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA92A74A63CB46A18B464B9D /* Muli-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraLight.ttf"; path = "../src/assets/fonts/Muli-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDDA28F7B6EF491FA348CCFF /* Muli-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Muli-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Muli-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77A9F2342A78469EBE687FC4 /* Muli-Light.ttf */ = {isa = PBXFileReference; name = "Muli-Light.ttf"; path = "../src/assets/fonts/Muli-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8CBA48B0D6142B8836C9EA7 /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; name = "Muli-LightItalic.ttf"; path = "../src/assets/fonts/Muli-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10CD582CD1724E0AB37CEADD /* Muli-Regular.ttf */ = {isa = PBXFileReference; name = "Muli-Regular.ttf"; path = "../src/assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F18E48B914241BC827F3E62 /* Muli-RegularItalic.ttf */ = {isa = PBXFileReference; name = "Muli-RegularItalic.ttf"; path = "../src/assets/fonts/Muli-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DBC1924AA17427FA766392E /* Muli-SemiBold.ttf */ = {isa = PBXFileReference; name = "Muli-SemiBold.ttf"; path = "../src/assets/fonts/Muli-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3820F7399B5A49699DAA9228 /* Muli-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Muli-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Muli-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C80F22CF7EF807381BA8F6 /* libPods-PatientUI-PatientUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F890A61EFD2110EFC0D359B /* libPods-PatientUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PatientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PatientUITests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PatientUITests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A5C6C1E9FBF1C85EE2B980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EAB933610957BC28CF71919 /* Pods-PatientUI.debug.xcconfig */,
+				5FCA0C30946643B5333EF1D7 /* Pods-PatientUI.release.xcconfig */,
+				67F178E1835AFD8E793A5D8D /* Pods-PatientUI-PatientUITests.debug.xcconfig */,
+				DF16836C322917AF60FCC13E /* Pods-PatientUI-PatientUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* PatientUI */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = PatientUI;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				D4601F1500FE9C9CD8423E2C /* libPods-PatientUI.a */,
+				307127D726205595BC22ABDC /* libPods-PatientUI-PatientUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* PatientUI */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PatientUITests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				04A5C6C1E9FBF1C85EE2B980 /* Pods */,
+				DD028EB7B0F0449184399B6E /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* PatientUI.app */,
+				00E356EE1AD99517003FC87E /* PatientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD028EB7B0F0449184399B6E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				1A50B2AA4C0A43339C8191F1 /* AntDesign.ttf */,
+				16295D52E8F040C597FEDEDB /* Entypo.ttf */,
+				174938A3AE2349908B737EAB /* EvilIcons.ttf */,
+				01B49E8C844F491E91CBA4F2 /* Feather.ttf */,
+				1E3935BD535E4C0D838FA170 /* FontAwesome.ttf */,
+				33949DB8005D41D29CCF3D1F /* FontAwesome5_Brands.ttf */,
+				B30C995431BE45A19DAB5442 /* FontAwesome5_Regular.ttf */,
+				075B07B9FDFA499EA1EC68BF /* FontAwesome5_Solid.ttf */,
+				8FB667CE27944413B2E1C29C /* Fontisto.ttf */,
+				2CB286E3A1AF4B0E92EEBD22 /* Foundation.ttf */,
+				B31DA54F985242A5B8153262 /* Ionicons.ttf */,
+				5E3FB8F011D44D84A4D4E6F2 /* MaterialCommunityIcons.ttf */,
+				029D6A9A1A9A4DD4BC15BEDA /* MaterialIcons.ttf */,
+				F13BF897760F410AB9B91AD2 /* Octicons.ttf */,
+				D2F1D983E1F7497E99084C2D /* SimpleLineIcons.ttf */,
+				3005A78473834A0C8F485AA2 /* Zocial.ttf */,
+				2D16942ABABD41F3B24A1572 /* Axiforma Black Italic.otf */,
+				B6AA317D94E546E1A850629B /* Axiforma Black.otf */,
+				F5247F64EEB74F0285AA1CB2 /* Axiforma-Bold Italic.otf */,
+				006DC2F1E4ED4E1AB8263DCE /* Axiforma-Bold.otf */,
+				D3E6ED5FF8234D7786B28EBA /* Axiforma-Book Italic.otf */,
+				437B1B7CCCEE46AEA11BF696 /* Axiforma-Book.otf */,
+				1F4AF4D4DD724C0BB282C8EC /* Axiforma-ExtraBold Italic.otf */,
+				3C62267800C44266A7A737BA /* Axiforma-ExtraBold.otf */,
+				C375362A78C646F99FB5B2E9 /* Axiforma-Heavy Italic.otf */,
+				461202982FC548FBB7B2A173 /* Axiforma-Heavy.otf */,
+				9B3F7CBE6F594D34ABA45215 /* Axiforma-Italic.otf */,
+				1A98B719C7994867B2A76E31 /* Axiforma-Light Italic.otf */,
+				AE75F87ABBD14B7F856B04D6 /* Axiforma-Light.otf */,
+				1471A86FE6D2414AA2C638AE /* Axiforma-Medium Italic.otf */,
+				9792FE03ADED49429C038869 /* Axiforma-Medium.otf */,
+				6F0374EEF70046EF835227F5 /* Muli-Regular.otf */,
+				BBCC34D5DA39428098EBC51F /* Axiforma-SemiBold Italic.otf */,
+				6AC00C2906C947E1B2C32013 /* Axiforma-SemiBold.otf */,
+				54637A511F784DFD8823E267 /* Axiforma-Thin Italic.otf */,
+				AB009A32188D41D78452968C /* Axiforma-Thin.otf */,
+				E10752AF2F9D4E709101FDE3 /* afriHealth-splashLogo.png */,
+				5D438AF431B447E49A751725 /* Amublance.png */,
+				6D6BAF7B377E465E8654741D /* BuyMedicine.png */,
+				2AB3B8610B944008BFF8EF76 /* consultDoctor.png */,
+				21021A69B6B14FE48ECCF19A /* doorStepDelivery.png */,
+				88D61C5A993647CE92C9FC77 /* drug1.png */,
+				D02EE7A0CAFA42D2A7AAF070 /* drug2.png */,
+				F2ED85950FB9417C8296895B /* wiremeshsplash.png */,
+				6A62D96148EE4B69A558340F /* ambulanceBooking.svg */,
+				64798E7C77F64C2593555227 /* buyMedicine.svg */,
+				089EABFC8203472E9F71613F /* clipboard-tick.svg */,
+				9F69D46552614321AAA58380 /* deliveryDoorStep.svg */,
+				3337519CE89A41578E9636D4 /* filterSearch.svg */,
+				BEFAEF31219A4F989D4727DC /* findDoctors.svg */,
+				FD0F0DCEF5334F0283E1343C /* fingerprint.svg */,
+				44A7FCEDFF7A461F857645F6 /* google-button.svg */,
+				2A3CA117C9AE4F76B4BD955C /* insurace-cover.svg */,
+				E0C5CB68BABE48AC9CC8AA69 /* nextButton.svg */,
+				9AE935E131D848078F87F6DA /* purchaseMedication.svg */,
+				03348730A7FD48318596093E /* RigourPlus-Logo.svg */,
+				82DF6E13B1904C4B8CA7D6B1 /* shopping-cart.svg */,
+				619EF2232AD14355B44AA2D4 /* signup-login-mesh.svg */,
+				67A4FEAC761747E6A183FFBD /* twitter-button.svg */,
+				FE90F8EC16714D5AAFDC10DA /* Muli-Black.ttf */,
+				8D59D613D706434195942E02 /* Muli-BlackItalic.ttf */,
+				E0E6FA10CEED4123BD7AD01B /* Muli-Bold.ttf */,
+				BCE0A777CF544B8BADB3A054 /* Muli-BoldItalic.ttf */,
+				CA1D5324B6D84BF393823508 /* Muli-ExtraBold.ttf */,
+				6CECDC5C2E2A4104B9430BE9 /* Muli-ExtraBoldItalic.ttf */,
+				AA92A74A63CB46A18B464B9D /* Muli-ExtraLight.ttf */,
+				DDDA28F7B6EF491FA348CCFF /* Muli-ExtraLightItalic.ttf */,
+				77A9F2342A78469EBE687FC4 /* Muli-Light.ttf */,
+				B8CBA48B0D6142B8836C9EA7 /* Muli-LightItalic.ttf */,
+				10CD582CD1724E0AB37CEADD /* Muli-Regular.ttf */,
+				1F18E48B914241BC827F3E62 /* Muli-RegularItalic.ttf */,
+				6DBC1924AA17427FA766392E /* Muli-SemiBold.ttf */,
+				3820F7399B5A49699DAA9228 /* Muli-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* PatientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PatientUITests" */;
+			buildPhases = (
+				6C4D59AB2A91F93FAEE00DF0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				3F8F2994706F4DAA5AF76CB7 /* [CP] Embed Pods Frameworks */,
+				C5EF529B6538C59FFA73D27F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = PatientUITests;
+			productName = PatientUITests;
+			productReference = 00E356EE1AD99517003FC87E /* PatientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* PatientUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PatientUI" */;
+			buildPhases = (
+				5BA04B9531373D7BF8A402D6 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				AAB1A954549B83810F9927CC /* [CP] Embed Pods Frameworks */,
+				BAA1912196A5188B80FE5A1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientUI;
+			productName = PatientUI;
+			productReference = 13B07F961A680F5B00A75B9A /* PatientUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PatientUI" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* PatientUI */,
+				00E356ED1AD99517003FC87E /* PatientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				43EE407C659C4A88B7265257 /* AntDesign.ttf in Resources */,
+				1C6D92DE3D7E4F488A6C752A /* Entypo.ttf in Resources */,
+				F9C6A37CDA4B483A901AA0AE /* EvilIcons.ttf in Resources */,
+				ADD0495538DA46C5A8F4A31C /* Feather.ttf in Resources */,
+				2581053EB01B4084AF478DFA /* FontAwesome.ttf in Resources */,
+				1A3ECFBB71824AB692E2851F /* FontAwesome5_Brands.ttf in Resources */,
+				96A980619FC74F9F8596AEFD /* FontAwesome5_Regular.ttf in Resources */,
+				6926049A3F4843F584B997F5 /* FontAwesome5_Solid.ttf in Resources */,
+				F6339575E5824646B45316A3 /* Fontisto.ttf in Resources */,
+				BA22C5DAB734478E9650861A /* Foundation.ttf in Resources */,
+				7383FFF403A24B1CA82AD565 /* Ionicons.ttf in Resources */,
+				EF9FDF9917964BCCAFCC7076 /* MaterialCommunityIcons.ttf in Resources */,
+				D3E4C35C54BA4146AA9684E6 /* MaterialIcons.ttf in Resources */,
+				2C697C413D21422E92FAD1C8 /* Octicons.ttf in Resources */,
+				67E6520BCC8740BCB604F1F3 /* SimpleLineIcons.ttf in Resources */,
+				9E51F32FB4CB4082969C7BE0 /* Zocial.ttf in Resources */,
+				E97A3B42AE004284B64CEAB1 /* Axiforma Black Italic.otf in Resources */,
+				A0D267E8AE4C446CBEB25F55 /* Axiforma Black.otf in Resources */,
+				368CC27E78CA46B6BD7DF359 /* Axiforma-Bold Italic.otf in Resources */,
+				3F97857FE2EE41BDB6283E73 /* Axiforma-Bold.otf in Resources */,
+				AFF8919252964A1DADECB428 /* Axiforma-Book Italic.otf in Resources */,
+				C8638B235CFF4AFF9C87262F /* Axiforma-Book.otf in Resources */,
+				4F3B536121D748F887550D22 /* Axiforma-ExtraBold Italic.otf in Resources */,
+				A9CB308FDE45492496522E40 /* Axiforma-ExtraBold.otf in Resources */,
+				3648AB6400D949A691A67ED7 /* Axiforma-Heavy Italic.otf in Resources */,
+				DA73275456E84D63857E9B04 /* Axiforma-Heavy.otf in Resources */,
+				CB262676D3C840168387F4FA /* Axiforma-Italic.otf in Resources */,
+				F2CDF848045F4B7393C8D14B /* Axiforma-Light Italic.otf in Resources */,
+				7ED1EC23135E447489B8FA0E /* Axiforma-Light.otf in Resources */,
+				BD44CBC5CCDE4891911716DB /* Axiforma-Medium Italic.otf in Resources */,
+				21EB2A60B88042D694E8125E /* Axiforma-Medium.otf in Resources */,
+				1B28585982354595A2ADC445 /* Muli-Regular.otf in Resources */,
+				7FCC4BBB6E7045F2827D8A6E /* Axiforma-SemiBold Italic.otf in Resources */,
+				AE343CF3FF504A5FBA5A3693 /* Axiforma-SemiBold.otf in Resources */,
+				FA25FD4212A8430C98CD9680 /* Axiforma-Thin Italic.otf in Resources */,
+				FF1F8C9EEA3D4FABAC824B41 /* Axiforma-Thin.otf in Resources */,
+				72BCD128A9DE49DD9803CAC5 /* afriHealth-splashLogo.png in Resources */,
+				E2B54B39ACA94BEB838F793A /* Amublance.png in Resources */,
+				075452C0886C4583AFEFEA81 /* BuyMedicine.png in Resources */,
+				CC540F8E393244F6B3BD73E2 /* consultDoctor.png in Resources */,
+				4B9FCBC958F74AFA80418F8A /* doorStepDelivery.png in Resources */,
+				B01E473D924D49D3B3DDF6F4 /* drug1.png in Resources */,
+				382636DDE99D47A3AB8BEA4C /* drug2.png in Resources */,
+				714596DB96504E6CB4DF4F46 /* wiremeshsplash.png in Resources */,
+				4816AF041934489D9000C1AF /* ambulanceBooking.svg in Resources */,
+				BD11540B8D0F4F71BAB40A87 /* buyMedicine.svg in Resources */,
+				1E36682F34ED4BF6B1C4D9E3 /* clipboard-tick.svg in Resources */,
+				6D431065F0984155911C3904 /* deliveryDoorStep.svg in Resources */,
+				05EE6515EDCF418D8C95ABC7 /* filterSearch.svg in Resources */,
+				242341402A374515A290CB0A /* findDoctors.svg in Resources */,
+				324F8ACE5C774734BAEA3754 /* fingerprint.svg in Resources */,
+				F8F7F76CC8F84ED286E63CE9 /* google-button.svg in Resources */,
+				87930520AC9845489F1B2F22 /* insurace-cover.svg in Resources */,
+				599D813B102D43F0A296A0A9 /* nextButton.svg in Resources */,
+				D0602FB47C3B40FFB90BC3ED /* purchaseMedication.svg in Resources */,
+				9836F8580EA3427C86B9BF78 /* RigourPlus-Logo.svg in Resources */,
+				1D83953034E9437CB69BEB5D /* shopping-cart.svg in Resources */,
+				7E10F84BC1CB4933A318EE13 /* signup-login-mesh.svg in Resources */,
+				CD0780B408B5444AAED21311 /* twitter-button.svg in Resources */,
+				3C1A0C03F678411CA562653F /* Muli-Black.ttf in Resources */,
+				4A926A62698448ED85069AEE /* Muli-BlackItalic.ttf in Resources */,
+				CAC8ED1A05A94711BB773E2B /* Muli-Bold.ttf in Resources */,
+				99BA132477F74D15B863F061 /* Muli-BoldItalic.ttf in Resources */,
+				79B6CB329BEA48A79A8DC466 /* Muli-ExtraBold.ttf in Resources */,
+				8FF5A7F6DE9244E196C631E1 /* Muli-ExtraBoldItalic.ttf in Resources */,
+				7D6DA433A4804713BC40E707 /* Muli-ExtraLight.ttf in Resources */,
+				D34AE3D8351D4B07909AE71E /* Muli-ExtraLightItalic.ttf in Resources */,
+				34010BD20FE1499DB682D1DB /* Muli-Light.ttf in Resources */,
+				E2233ABC639F457885612120 /* Muli-LightItalic.ttf in Resources */,
+				A976DD7061724513B874837F /* Muli-Regular.ttf in Resources */,
+				97C7C026BAAF43D1B8EFD584 /* Muli-RegularItalic.ttf in Resources */,
+				C67B96239C2047F2924513AB /* Muli-SemiBold.ttf in Resources */,
+				3DE569E69CF3442382EAD028 /* Muli-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		3F8F2994706F4DAA5AF76CB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA04B9531373D7BF8A402D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4D59AB2A91F93FAEE00DF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatientUI-PatientUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB1A954549B83810F9927CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA1912196A5188B80FE5A1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientUI/Pods-PatientUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EF529B6538C59FFA73D27F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatientUI-PatientUITests/Pods-PatientUI-PatientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* PatientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* PatientUI */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F178E1835AFD8E793A5D8D /* Pods-PatientUI-PatientUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PatientUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientUI.app/PatientUI";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF16836C322917AF60FCC13E /* Pods-PatientUI-PatientUITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = PatientUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PatientUI.app/PatientUI";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAB933610957BC28CF71919 /* Pods-PatientUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PatientUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PatientUI;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCA0C30946643B5333EF1D7 /* Pods-PatientUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PatientUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PatientUI;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PatientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PatientUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PatientUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
